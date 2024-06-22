@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: blue;
+}
+
+.puppy-list {
+  display: flex;
+  flex-direction: column;
+  color: blue;
+  width: 50%;
+}
+
+.puppy-list p {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  color: blue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.puppy-list p:hover {
+  background-color: #f0f0f0;
+}
+
+.featured-puppy {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.featured-puppy h2 {
+  margin: 0 0 10px 0;
+}
+
+.featured-puppy ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.featured-puppy ul li {
+  margin: 5px 0;
+}
